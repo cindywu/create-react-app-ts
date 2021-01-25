@@ -5,11 +5,11 @@ interface HeaderProps {
   
 }
 
-export default function Header(props: HeaderProps) {
+export default function Header({ buttonText }: HeaderProps) {
   return (
     <div>
       <h1>Header</h1>
-      <button>{props.buttonText}</button>
+      <button>{buttonText}</button>
     </div>
   )
 }
