@@ -5,6 +5,7 @@ interface CounterHooksProps {
 }
 
 export default function CounterHooks({ initialCount }: CounterHooksProps) {
+  console.log("Render Counter Hooks")
   const [count, setCount] = useState(initialCount)
   return (
     <div>
