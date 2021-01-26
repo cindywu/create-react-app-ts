@@ -12,7 +12,7 @@ function App() {
       Counter
       <Counter initialCount={0}/>
       Counter Hooks
-      <CounterHooks initialCount={3}/>
+      <CounterHooks initialCount={0}/>
     </div>
   )
 }
