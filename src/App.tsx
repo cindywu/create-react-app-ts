@@ -6,6 +6,9 @@ function App() {
     <div className="App">
       <Header buttonText="Click Me!"/>
       <h1>Hello World!</h1>
+      <button>-</button>
+      <span>0</span>
+      <button>+</button>
     </div>
   )
 }
