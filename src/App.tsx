@@ -5,6 +5,7 @@ function App() {
   return (
     <div className="App">
       <Header buttonText="Click Me!"/>
+      <h1>Hello World!</h1>
     </div>
   )
 }
